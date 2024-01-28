@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+.Principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 80%;
+    background-color: #E8EBE4;
+    height: 100vh;
+}
+
+.intro{
+    padding-top: 10px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal;
+}
+
+.main p{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.Contactos{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    background-color: #FFF;
+    overflow-y: scroll;
+    max-width: 100vh;
+}
+
+.cardmini{
+    border-style: solid;
+    border-color: #BEC1BB;
+    border-width: 1px;
+    padding: 2px 0 2px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.estado{
+    display: flex;
+    padding-left: 15px;
+}
+
+.estado p{
+    padding-left: 10px;
+}
+
+span{
+    color:#BEC1BB;
+    font-size: 12px;
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #BEC1BB;
+}
+
+.iconos i{
+    padding: 5px;
+}
+
+
+.nuevoChat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
+    border-style: solid;
+    border-color: #BEC1BB;
+    border-width: 1px;
+}
+
+button{
+    background-color: #a491d2;
+    color:#FFF;
+    padding: 10px 40px 10px 40px;
+    
+}
+
+button:hover{
+    background-color: #CDC3E6;
+}
+
+button:focus{
+    background-color: #BEC1BB;
+}
+
+.card{
+    border-style: solid;
+    border-color: #BEC1BB;
+    border-width: 1px;
+    padding: 6px 0 6px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0.8;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nombre{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.msj{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.est{
+  color:#BEC1BB
+}
+
+
+.foto{
+    border-radius: 100%;
+    max-width: 15%;
+}
+
