@@ -41,7 +41,6 @@ h2{
     flex-direction: column;
     flex-basis: 20%;
     background-color: #FFF;
-    overflow-y: scroll;
     max-width: 100vh;
 }
 
@@ -49,36 +48,28 @@ h2{
     border-style: solid;
     border-color: #BEC1BB;
     border-width: 1px;
-    padding: 2px 0 2px 0;
     display: flex;
-    justify-content: center;
 }
 
 .estado{
     display: flex;
-    padding-left: 15px;
-}
-
-.estado p{
-    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 span{
+    font-family: 'Open Sans', sans-serif;
     color:#BEC1BB;
     font-size: 12px;
+
 }
 
 .iconos{
     display: flex;
     align-items: center;
-    justify-content: space-around;
     color: #BEC1BB;
+    margin-right: 15px;
 }
-
-.iconos i{
-    padding: 5px;
-}
-
 
 .nuevoChat{
     display: flex;
@@ -111,8 +102,9 @@ button:focus{
     border-width: 1px;
     padding: 6px 0 6px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-grow: 0.8;
+
 }
 
 .texto{
@@ -123,12 +115,12 @@ button:focus{
 
 .nombre{
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .msj{
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .est{
@@ -139,5 +131,7 @@ button:focus{
 .foto{
     border-radius: 100%;
     max-width: 15%;
+    margin-left: 30px;
+    margin-right: 20px;
 }
 
