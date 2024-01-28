@@ -45,9 +45,8 @@ h1{
 }
 
 .cardmini{
-    border-style: solid;
-    border-color: #BEC1BB;
-    border-width: 1px;
+    border-top: 1px solid #BEC1BB;
+    border-right: 1px solid #BEC1BB;
     display: flex;
 }
 
@@ -76,9 +75,8 @@ span{
     justify-content: center;
     align-items: center;
     padding: 30px 0 30px 0;
-    border-style: solid;
-    border-color: #BEC1BB;
-    border-width: 1px;
+    border-top: 1px solid #BEC1BB;
+    border-right: 1px solid #BEC1BB;
 }
 
 button{
@@ -97,9 +95,8 @@ button:focus{
 }
 
 .card{
-    border-style: solid;
-    border-color: #BEC1BB;
-    border-width: 1px;
+    border-top: 1px solid #BEC1BB;
+    border-right: 1px solid #BEC1BB;
     padding: 6px 0 6px 0;
     display: flex;
     justify-content: flex-start;
